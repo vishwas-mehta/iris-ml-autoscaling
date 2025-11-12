@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: iris-api
-        image: gcr.io/PROJECT_ID/iris-classifier:latest
+        image: gcr.io/adroit-metric-473508-k1/iris-classifier:latest
         ports:
         - containerPort: 5000
         resources:
