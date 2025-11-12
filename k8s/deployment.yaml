@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iris-classifier
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iris-classifier
+  template:
+    metadata:
+      labels:
+        app: iris-classifier
+    spec:
+      containers:
+      - name: iris-api
+        image: gcr.io/PROJECT_ID/iris-classifier:latest
+        ports:
+        - containerPort: 5000
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"

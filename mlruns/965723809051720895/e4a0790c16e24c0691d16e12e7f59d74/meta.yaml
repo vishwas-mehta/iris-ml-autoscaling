@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mehtavishwas989_gmail_com/mlops-week7/iris-ml-autoscaling/mlruns/965723809051720895/e4a0790c16e24c0691d16e12e7f59d74/artifacts
+end_time: 1762928734766
+entry_point_name: ''
+experiment_id: '965723809051720895'
+lifecycle_stage: active
+run_id: e4a0790c16e24c0691d16e12e7f59d74
+run_name: omniscient-cat-458
+run_uuid: e4a0790c16e24c0691d16e12e7f59d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762928723022
+status: 3
+tags: []
+user_id: mehtavishwas989_gmail_com
